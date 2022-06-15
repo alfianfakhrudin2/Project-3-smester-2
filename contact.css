@@ -65,9 +65,9 @@
     --warna2: #2f3542;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+.body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     background: white;
     font-family: sans-serif;
     max-width: 1000%;
@@ -123,6 +123,7 @@ nav ul li a{
 }
 .jarak{
     align-items: center;
+    padding: 0 0 0 0;margin: 0 0 0 0;
 }
 .card .teks h2{
     font-family: 'Poppins', sans-serif;
@@ -183,7 +184,7 @@ border-bottom: solid 2px #474544;
 .iframe{
     margin-top: 20px;
     margin-left: 30px;
-    width: 30.6rem;
+    width: 30rem;
     height: 16.8rem;
     margin-left: 0px;
 }
@@ -201,3 +202,34 @@ border-bottom: solid 2px #474544;
     height: 20rem;
     padding-left: 0px;
 }
+
+.bi-whatsapp,
+.fa-instagram,
+.bi-linkedin,
+.fa-twitter,
+.bi-facebook {
+  color: white;
+  transition: 0.9s;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-left: 0rem;
+    width: 100%;
+}
+  .bi-whatsapp:hover {
+    color: #2ecc71 !important;
+  }
+  .bi-instagram:hover {
+    color: #c13584 !important;
+  }
+  .bi-linkedin:hover {
+    color: #2867b2 !important;
+  }
+  .bi-twitter:hover {
+    color: #1da1f3 !important;
+  }
+  .bi-facebook:hover {
+    color: #3b5998 !important;
+  }
