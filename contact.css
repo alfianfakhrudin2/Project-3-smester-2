@@ -118,7 +118,7 @@ nav ul li a{
     border-radius: 10px;
     margin: auto;
     margin-top: 2rem;
-    margin-left: 8rem;
+    margin-left: 9rem;
     height: 37rem;
     text-align: center;
 }
@@ -137,7 +137,12 @@ nav ul li a{
 .underline {
 border-bottom: solid 2px #474544;
   margin: -0.512em auto;
-  width: 80px;
+  width: 9rem;
+}
+.lin{
+    border-bottom: solid 2px white;
+    margin: -0.512em auto;
+    width: 6rem;
 }
 .inpt1{
     width: 100%;
@@ -185,16 +190,16 @@ border-bottom: solid 2px #474544;
     margin-top: 0.2rem;
     margin-left: 1rem;
     text-align: center;
-    height: 20rem;
+    height: 21rem;
 }
-.card1 h2{
+.card1 h3{
     color: white;
 }
 .card1 p{
     color: white;
 }
 
-.iframe{
+.maps{
     margin-top: 20px;
     margin-left: 30px;
     width: 30rem;
@@ -223,6 +228,7 @@ border-bottom: solid 2px #474544;
     font-size: 1.4rem;
     border: 1px solid grey;
     border-radius: 11px;
+    margin-top: 23px;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -242,11 +248,13 @@ border-bottom: solid 2px #474544;
     align-items: center;
     font-size: 1.5em;
     border-radius: 11px;
-    margin-right: 10px;
+    margin-right: 15px;
+    padding: 10px;
 }
 .infobox p{
     text-align: left;
     font-size: 1rem;
+    margin-top: 19px;
 }
 .infobox div a{
     color: #ffff;
@@ -260,7 +268,7 @@ border-bottom: solid 2px #474544;
 .bi-linkedin,
 .fa-twitter,
 .bi-facebook {
-  color: white;
+  color: #ccc;
   transition: 0.8s;
 }
 .social ul{
@@ -270,7 +278,8 @@ border-bottom: solid 2px #474544;
     position: relative;
 }
 .social li{
-    margin-right: 20px;
+    padding-right: 30px;
+    margin-left: 21px;
     width: 100%;
     justify-content: space-between;
 }
@@ -288,4 +297,33 @@ border-bottom: solid 2px #474544;
 }
 .bi-facebook:hover {
     color: #3b5998 !important;
+}
+
+/*** NYOBA RESPONSIF ***/
+@media(max-width:991px)
+{
+    .body{
+    background: body;
+    }
+    .contactUs{
+        padding: 20px;
+    }
+    .infobox{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "card" "card1 " "card2" "maps" "infobox";
+    }
+    .maps{
+        min-height: 300px;
+    }
+    .infobox .row50{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .inpt1, .inpt2{
+        width: 100%;
+    }
 }
