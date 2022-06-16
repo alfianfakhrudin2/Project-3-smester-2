@@ -8,29 +8,15 @@
     <!-- google fonts 1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Signika:wght@300;400;700&family=Source+Sans+Pro:wght@200&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
     <!-- google fonts 2 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
-    <!-- google fonts 3 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
-    <!-- google fonts 4 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
-    <!-- Google Fonts 5 -->
+    <!-- Google Fonts 3 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- Google Fonts 6 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <!-- Bootsrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
     <!-- AOS -->
@@ -63,7 +49,7 @@
         <div class="col-12">
             <div class="col-6 card">
                 <div class="col-12 teks">
-                    <h2>&bull; ContactUs &bull;</h2>
+                    <h2>&bull; Send a Message &bull;</h2>
                     <div class="underline">
                     </div>
                 </div>
@@ -78,20 +64,23 @@
                             <input type="number" class="inpt1" name="fnme" placeholder="Phone number">
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="row">
                         <div class="col-12 col2">
                             <label for="name" class="label">Email</label>
-                            <input type="text" class="inpt2" placeholder="Write Your Email">
+                            <input type="email" class="inpt2" placeholder="Write Your Email">
                         </div>
                     </div>
-                    <div class="col-12">
-                        <div class="col-12 inpt3"><label for="name" class="label">Email</label>
+                    <div class="row">
+                        <div class="col-12 col2">
+                            <label for="name" class="label">Message</label>
                             <textarea class="inpt2" name="message" id="message" cols="55" rows="4"
-                                placeholder="Write Message"></textarea>
+                                placeholder="Write Message Here..."></textarea>
                         </div>
                     </div>
-                    <div class="col-12">
-                        <button type="submit" id="btn" onclick="submitEmail()"> Submit</button>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="submit" id="btn" onclick="submitEmail()"> Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -99,26 +88,60 @@
                 <div class="col-12">
                     <div class="col-6 card1" style="border-radius: 10px 10px 0 0; ">
                         <div class="col-12">
-                            <h2>&bull; Social Media &bull;</h2>
+                            <h2>&bull; Contact Info &bull;</h2>
                             <div class="underline">
                             </div>
                             <div class="row">
-                                <div class="col-6 social">
-                                    <a href="https://github.com/alfianfakhrudin2" target="_blank">
-                                        <h1><i class="bi bi-whatsapp text-dark"></i></i></h1>
-                                    </a>
-                                    <a href="https://www.instagram.com/yanfk27/" target="_blank">
-                                        <h1><i class="bi bi-instagram text-dark"></i></h1>
-                                    </a>
-                                    <a href="https://www.linkedin.com/in/alfian-fakhrudin-9285b5216/" target="_blank">
-                                        <h1><i class="bi bi-linkedin text-dark"></i></h1>
-                                    </a>
-                                    <a href="https://www.facebook.com/profile.php?id=100027697244643" target="_blank">
-                                        <h1><i class="bi bi-facebook text-dark"></i></h1>
-                                    </a>
-                                    <a href="https://twitter.com/Alfian52238821" target="_blank">
-                                        <h1><i class="bi bi-twitter text-dark"></i></h1>
-                                    </a>
+                                <div class="col-12 infobox">
+                                    <div>
+                                        <span>
+                                            <ion-icon name="location-outline"></ion-icon>
+                                        </span>
+                                        <p>RT.11/RW.20 Tanah Abang, Central Jakarta City <br> INDONESIA</p>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <ion-icon name="mail-outline"></ion-icon>
+                                        </span>
+                                        <a href="mailto:SpeednetId@gmail.com ">SpeednetId@gmail.com</a>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <ion-icon name="call-outline"></ion-icon>
+                                        </span>
+                                        <a href="">+62 139 008 281</a>
+                                    </div>
+                                </div>
+                                <div class="col-3 social">
+                                    <ul>
+                                        <li>
+                                            <a href="https://github.com/alfianfakhrudin2" target="_blank">
+                                                <h3><i class="bi bi-whatsapp text-light"></i></h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/yanfk27/" target="_blank">
+                                                <h3><i class="bi bi-instagram text-light"></i></h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/alfian-fakhrudin-9285b5216/"
+                                                target="_blank">
+                                                <h3><i class="bi bi-linkedin text-light"></i></h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/profile.php?id=100027697244643"
+                                                target="_blank">
+                                                <h3><i class="bi bi-facebook text-light"></i></h3>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/Alfian52238821" target="_blank">
+                                                <h3><i class="bi bi-twitter text-light"></i></h3>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -136,6 +159,9 @@
             </div>
         </div>
     </div>
+    <!-- ionicons  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
