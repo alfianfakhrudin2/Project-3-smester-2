@@ -3,10 +3,6 @@
     float: left;
     padding: 15px;
 }
-body{
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
 nav{
     position: relative;
     display: flex;
@@ -44,15 +40,29 @@ nav ul li a{
     overflow: hidden;  
 }
 .card{
-    box-shadow: 0 5px 9px rgba(255, 0, 200, 0.3);
+    box-shadow: rgba(29, 4, 255, 0.3) 0px 0px 0px 3px;
     background-color: rgb(255, 255, 255);
-    border-radius: 25px;
-    padding: 25px;
+    padding: 18px;
+    border-radius: 20px;
+}
+.content{
+    background-color: #ffffff;
+    padding: 50px;
+}
+.content h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: 'DM Serif Text';
+}
+.text
+{
+    font-family: 'GFS Didot', serif;
+    font-size: 20px;
+    color: #000000;
 }
 .cardvision
 {
-
-    box-shadow: 0 5px 9px rgba(255, 0, 200, 0.3);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
     padding: 25px; 
@@ -60,6 +70,7 @@ nav ul li a{
 .cardvision h1
 {
     text-align: center;
+    font-style: 'DM Serif Text';
 }
 .cardvision li
 {
@@ -68,7 +79,7 @@ nav ul li a{
 }
 .cardmission
 {
-    box-shadow: 0 5px 9px rgba(255, 0, 200, 0.3);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
     padding: 25px;
@@ -76,25 +87,10 @@ nav ul li a{
 .cardmission h1
 {
     text-align: center;
+    font-style: 'DM Serif Text';
 }
 .cardmission li
-
 {
     font-size: 20px
     font-family: 'GFS Didot', serif;
-}
-.content{
-    
-    float: left;
-    background-color: #ffffff;
-    padding: 50px;
-}
-.content h1{
-    text-align: center;
-}
-.text{
-    font-family: 'GFS Didot', serif;
-    font-size: 20px;
-    color: #000000;
-    text-align: justify;
 }
