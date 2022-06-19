@@ -63,14 +63,26 @@
             </div>
             <div style="height: 30px;"></div>
             <hr>
+          
+           <!--Category Button-->
+          <div id="CategoryBtn">
             <div class="row">
               <div class="col-12 title-center">
                 <span class="title-styles">Pilihan Paket SpeedNet</span>
+                <div style="height: 40px"></div>
+                <button class="category-btn active" onclick="filterSelection('all')" >All</button>
+                <button class="category-btn" onclick="filterSelection('rumah')">Paket Rumah SpeedNet</button>
+                <button class="category-btn" onclick="filterSelection('kantor')">Paket Kantor SpeedNet</button>  
               </div>
             </div>
-            <div style="height: 50px;"></div>
-            <div class="row">
-              <div class="col-4 content-box">
+          </div>
+         
+
+          <div style="height: 50px;"></div>
+
+          <!--Paket Rumah SpeedNet-->
+          <div class="row">
+              <div class="col-4 content-box rumah">
                 <div class="col-12 text-center">
                   <img class="image-styles" src="download.png" alt="50Mbps Picture">
                   <div style="margin-top: -160px;">
@@ -86,13 +98,26 @@
                 </div>
                 <hr>
                 <div style="height: 20px;"></div>
-                <div class="col-12 text-center">
-                  <div class="inline-text">
+                <div class="col-12">
+                  <div class="inline-text text-center">
                     <p>Untuk penggunaan max 5 perangkat (3 Handphones 2 Komputer)</p>
                   </div>
                 </div>
+                <div class="col-12 price-text">
+                  <h4>
+                    Rp
+                    <span style="font-size:30px">485.000</span>
+                    /bulan
+                  </h4>
+                </div>
+                <div style="height: 30px"></div>
+                <div class="col-12">
+                  <div class="btn-center">
+                    <button class="btn-beli">Berlangganan</button>
+                  </div>
+                </div>
               </div>
-              <div class="col-4 content-box">
+              <div class="col-4 content-box rumah">
                 <div class="col-12 text-center">
                   <img class="image-styles" src="100mb.png" alt="100Mbps Picture">
                   <div style="margin-top: -160px;">
@@ -108,13 +133,26 @@
                 </div>
                 <hr>
                 <div style="height: 20px;"></div>
-                <div class="col-12 text-center">
-                  <div class="inline-text">
+                <div class="col-12">
+                  <div class="inline-text text-center">
                     <p>Untuk penggunaan max 10 perangkat (6 Handphones 4 Komputer)</p>
                   </div>
                 </div>
+                <div class="col-12 price-text">
+                  <h4>
+                    Rp
+                    <span style="font-size:30px">950.000</span>
+                    /bulan
+                  </h4>
+                </div>
+                <div style="height: 30px"></div>
+                <div class="col-12">
+                  <div class="btn-center">
+                    <button class="btn-beli">Berlangganan</button>
+                  </div>
+                </div>
               </div>
-              <div class="col-4 content-box">
+              <div class="col-4 content-box rumah">
                 <div class="col-12 text-center">
                   <img class="image-styles" src="200mb.png" alt="200Mbps Picture">
                   <div style="margin-top: -160px;">
@@ -130,13 +168,26 @@
                 </div>
                 <hr>
                 <div style="height: 20px;"></div>
-                <div class="col-12 text-center">
-                  <div class="inline-text">
+                <div class="col-12">
+                  <div class="inline-text text-center">
                     <p>Untuk penggunaan max 15 perangkat (9 Handphones 6 Komputer)</p>
                   </div>
                 </div>
+                <div class="col-12 price-text">
+                  <h4>
+                    Rp
+                    <span style="font-size:30px">1.300.000</span>
+                    /bulan
+                  </h4>
+                </div>
+                <div style="height: 30px"></div>
+                <div class="col-12">
+                  <div class="btn-center">
+                    <button class="btn-beli">Berlangganan</button>
+                  </div>
+                </div>
               </div>
-              <div class="col-4 content-box">
+              <div class="col-4 content-box rumah">
                 <div class="col-12 text-center">
                   <img class="image-styles" src="250mbp.png" alt="250Mbps Picture">
                   <div style="margin-top: -160px;">
@@ -145,29 +196,145 @@
                     Mbps
                   </div>
                   <div style="height: 40px"></div>
-                  <div class="text-style">
+                  <div class="text-style text-center">
                     <h4>SpeedNet Paket Rumah Spesial Keluarga 250Mbps + Cloud Storage 500GB</h4>
                   </div>
                   <div style="height: 30px;"></div>
                 </div>
                 <hr>
                 <div style="height: 20px;"></div>
-                <div class="col-12 text-center">
-                  <div class="inline-text">
+                <div class="col-12">
+                  <div class="inline-text text-center">
                     <p>Untuk penggunaan max 20 perangkat (12 Handphones 8 Komputer)</p>
                   </div>
                 </div>
+                <div class="col-12 price-text">
+                  <h4>
+                    Rp
+                    <span style="font-size:30px">1.650.000</span>
+                    /bulan
+                  </h4>
+                </div>
+                <div style="height: 30px"></div>
+                <div class="col-12">
+                  <div class="btn-center">
+                    <button class="btn-beli">Berlangganan</button>
+                  </div>
+                </div>
               </div>
-            </div>
+          </div>
+            
+          <!--Paket Kantor SpeedNet-->
+          <div class="row">
+              <div class="col-4 content-box kantor">
+                  <div class="col-12 text-center">
+                    <img class="image-gede" src="500mbps.png" alt="500Mbps Picture">
+                    <div style="margin-top: -6px;">
+                      <h1 class="font-gede">500</h1>
+                      <h4 class="font-gede">Mbps</h4>
+                    </div>
+                    <div style="height: 20px"></div>
+                    <div class="text-style">
+                      <h4>SpeedNet Paket Kantor 500Mbps + Private IP Address Facility</h4>
+                    </div>
+                    <div style="height: 30px;"></div>
+                  </div>
+                  <hr>
+                  <div style="height: 20px;"></div>
+                  <div class="col-12">
+                    <div class="inline-text text-center">
+                      <p>Untuk penggunaan keperluan kantor dengan max 100 perangkat</p>
+                    </div>
+                  </div>
+                  <div class="col-12 price-text">
+                    <h4>
+                      Rp
+                      <span style="font-size:30px">5.485.000</span>
+                      /bulan
+                    </h4>
+                  </div>
+                  <div style="height: 30px"></div>
+                  <div class="col-12">
+                    <div class="btn-center">
+                      <button class="btnkantor-beli">Berlangganan</button>
+                    </div>
+                  </div>
+              </div>
 
-      
+              <div class="col-4 content-box kantor">
+                  <div class="col-12 text-center">
+                    <img class="image-gede" src="700mbps.png" alt="700Mbps Picture">
+                    <div style="margin-top: -6px;">
+                      <h1 class="font-gede">700</h1>
+                      <h4 class="font-gede">Mbps</h4>
+                    </div>
+                    <diV style="height: 20px;"></diV>
+                    <div class="text-style">
+                      <h4>SpeedNet Paket Kantor 700Mbps + Private IP Address Facility</h4>
+                    </div>
+                    <div style="height: 30px;"></div>
+                  </div>
+                  <hr>
+                  <div style="height: 20px;"></div>
+                  <div class="col-12">
+                    <div class="inline-text text-center">
+                      <p>Untuk penggunaan keperluan kantor dengan max 300 perangkat</p>
+                    </div>
+                  </div>
+                  <div class="col-12 price-text">
+                    <h4>
+                      Rp
+                      <span style="font-size:30px">10.235.000</span>
+                      /bulan
+                    </h4>
+                  </div>
+                  <div style="height: 30px"></div>
+                  <div class="col-12">
+                    <div class="btn-center">
+                      <button class="btnkantor-beli">Berlangganan</button>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-4 content-box kantor">
+                  <div class="col-12 text-center">
+                    <img class="image-gede" src="1gbps.png" alt="1Gbps Picture">
+                    <div style="margin-top: -6px;">
+                      <h1 class="font-gede">1</h1>
+                      <h4 class="font-gede">Gbps</h4>
+                    </div>
+                    <diV style="height: 20px;"></diV>
+                    <div class="text-style">
+                      <h4>SpeedNet Paket Kantor 1000Mbps + Private IP Address Facility</h4>
+                    </div>
+                    <div style="height: 30px;"></div>
+                  </div>
+                  <hr>
+                  <div style="height: 20px;"></div>
+                  <div class="col-12">
+                    <div class="inline-text text-center">
+                      <p>Untuk penggunaan keperluan kantor dengan max 500 perangkat</p>
+                    </div>
+                  </div>
+                  <div class="col-12 price-text">
+                    <h4>
+                      Rp
+                      <span style="font-size:30px">24.995.000</span>
+                      /bulan
+                    </h4>
+                  </div>
+                  <div style="height: 30px"></div>
+                  <div class="col-12">
+                    <div class="btn-center">
+                      <button class="btnkantor-beli">Berlangganan</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
         
-          
-
-          
-
-        
-
+          <!--Script Slider-->
           <script>
             
             let slideIndex = 1;
@@ -196,7 +363,58 @@
               slides[slideIndex-1].style.display = "block";  
               dots[slideIndex-1].className += " active";
             }
-            </script>
+          </script>
+
+         <!--Script Filter-->
+          <script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("col-4 content-box");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("CategoryBtn");
+var btns = btnContainer.getElementsByClassName("category-btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+          </script>
         
     </body>
  
