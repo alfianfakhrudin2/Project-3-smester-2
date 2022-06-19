@@ -83,23 +83,29 @@ nav{
     padding-top: 12px;
     letter-spacing: 3px;
     font-size: 20px;
+    margin-left: 7rem;
     font-family: 'DM Serif Text', serif;
 }
 nav ul{
     display: flex;
+    text-align: right;
     text-decoration: none;
     justify-content: space-between;
     list-style: none;
     width: 27%;
     padding-top: 12px;
     font-size: 18px;
-    margin-right: 3rem;
+    margin-left: 15rem;
     font-family: 'Jacques Francois', serif;
 }
 nav ul li a{
     text-decoration: none;
     color: #000000;
-    margin-left: 1.25rem;
+    margin-left: 2rem;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
 }
 
 
