@@ -6,10 +6,32 @@
 :root {
     --warna1: #4a5568;
     --warna2: #2f3542;
+    --primary: #edf2fc;
+    --second: #212121;
+    --third: whitesmoke;
+    --four: whitesmoke;
+    --navbar: #ffff;
+    --fonts: #212121;
+    --jdul: #212121;
+    --topbtn:  #bd93f9;
+    --csr: #2f3542;
 }
 
+.modegelap{
+    --primary: #282a36;
+    --second: #fff;
+    --third: white;
+    --navbar: #44475a;
+    --fonts: whitesmoke;
+    --jdul: #bd93f9;
+    --warna1: whitesmoke;
+    --four: #f8f8f2;
+    --topbtn: whitesmoke;
+    --csr: whitesmoke;
+}
+
+
 .body{
-    background: white;
     font-family: sans-serif;
     max-width: 1000%;
     width: 100%;
@@ -20,9 +42,9 @@ nav{
     position: relative;
     display: flex;
     justify-content: space-around;
-    color: #000000;
+    color: var(--fonts);
     padding: 20px 0;
-    background-color: white;
+    background-color: var(--navbar);
     width: 100%;
     height: 60px;
     align-items: center;
@@ -33,29 +55,38 @@ nav{
     padding-top: 12px;
     letter-spacing: 3px;
     font-size: 20px;
+    margin-left: 7rem;
     font-family: 'DM Serif Text', serif;
 }
 nav ul{
     display: flex;
+    text-align: right;
     text-decoration: none;
     justify-content: space-between;
     list-style: none;
     width: 27%;
     padding-top: 12px;
     font-size: 18px;
-    margin-right: 3rem;
+    margin-left: 15rem;
     font-family: 'Jacques Francois', serif;
 }
 nav ul li a{
     text-decoration: none;
-    color: #000000;
-    margin-left: 1.25rem;
+    color: var(--fonts);
+    margin-left: 2rem;
 }
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+
 
 /* hero container/jumbotron */
 .hero-container {
     height: 620px;
-    background-color: white;
+    background-color: var(--primary);
     padding: 0 10%;
     display: flex;
     padding-bottom: 5.5rem;
@@ -82,7 +113,7 @@ nav ul li a{
     font-size: 50px;
     font-family: 'Quando', serif;
     text-align: center;
-    color: #2f3640;
+    color: var(--jdul);
     width: 100%;
 }
 
@@ -94,7 +125,7 @@ nav ul li a{
 
 /* second container cuy */
 .second-container {
-    background-color: white;
+    background-color: var(--primary);
     height: 610px;
     margin: 0px 0px;
     display: flex;
@@ -168,7 +199,7 @@ nav ul li a{
 
 /*** CONTAINER 3 ***/
 .third-container{
-    background-color: white;
+    background-color: var(--primary);
     height: 680px;
     padding-top: 5rem;
     padding-right: 35px;
@@ -179,7 +210,7 @@ nav ul li a{
 .third-container .border1{
     width: 54%;
     height: 20rem;
-    background-color: white;
+    background-color: var(--four);
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -195,7 +226,7 @@ nav ul li a{
     padding-bottom: 1rem;
 }
 .third-container > div > div {
-    background-color: white;
+    background-color: var(--four);
     align-items: center;
     width: 670px;
     height: 15rem;
@@ -236,7 +267,7 @@ nav ul li a{
 .four-container{
     width: 100%;
     height: 40rem;
-    background-color: white;
+    background-color: var(--primary);
     padding-top: 1rem;
     align-items: center;
 }
@@ -244,6 +275,7 @@ nav ul li a{
     text-align: center;
 }
 .box h1{
+    color: var(--csr);
     font-family: 'Signika Negative', sans-serif;
 }
 
@@ -322,11 +354,11 @@ nav ul li a{
     text-decoration: none;
     text-align: center;
     line-height: 40px;
-    color: #7f8c8d;
+    color: var(--topbtn);
     font-size: 30px;
 }
 .gotopbtn:hover {
-    color: green;
+    color: whitesmoke;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 414px) {
