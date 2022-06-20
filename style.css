@@ -271,10 +271,7 @@ nav img{
     height: 40rem;
     background-color: var(--primary);
     padding-top: 1rem;
-    
-    
-    
-   
+    align-items: center;
 }
 .box{
     text-align: center;
@@ -295,7 +292,7 @@ nav img{
     padding-left: 8px;
     flex-direction:column;
     padding-top: 2.3rem;
-    padding-right: 50px;
+    padding-right: px;
     margin-left: 6.2rem;
     margin-top: 1rem;
     box-shadow: 0 5px 14px rgba(0, 0, 0, .3);
@@ -334,7 +331,9 @@ nav img{
     text-align: center;
     align-items: center;
 }
-
+.pedo{
+    width: 100%;
+}
 /*** FOOTER ***/
 .footer{
     width: 100%;
