@@ -10,7 +10,7 @@
     width: 100%;
 }
 body {
-    background-color: #edf2fc;
+    background-color: var(--latar);
     overflow-x: hidden;
 }
 .about{   
@@ -18,7 +18,7 @@ body {
 }
 .card{
     box-shadow: rgba(255, 0, 208, 0.467) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--about);
     border-radius: 20px;
     width: 88%;
     height: 100%;
@@ -28,17 +28,18 @@ body {
     text-align: center;
     margin-bottom: 25px;
     font-style: 'DM Serif Text';
+    color: var(--abouth1);
 }
 .text
 {
     font-family: 'GFS Didot', serif;
     font-size: 20px;
-    color: #000000;
+    color: var(--abouttext);
 }
 .cardvision
 {
     box-shadow: rgba(255, 0, 208, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--about);
     border-radius: 25px;
     padding: 25px; 
 }
@@ -49,13 +50,14 @@ body {
 }
 .cardvision li
 {
+    color: var(--abouttext);
     font-size: 20px ;
     font-family: 'GFS Didot', serif;
 }
 .cardmission
 {
     box-shadow: rgba(255, 0, 208, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-    background-color: rgb(255, 255, 255);
+    background-color:var(--about);
     border-radius: 25px;
     padding: 25px;
 }
@@ -66,6 +68,7 @@ body {
 }
 .cardmission li
 {
+    color: var(--abouttext);
     font-size: 20px ;
     font-family: 'GFS Didot', serif;
 }
