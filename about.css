@@ -42,7 +42,7 @@ nav ul li a{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 90%;
-    height: fit-content;
+    height: 100%;
     
 }
 .content h1{
