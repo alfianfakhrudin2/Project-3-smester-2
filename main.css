@@ -1,20 +1,23 @@
 
-
 [class*="col-"] {
     float: left;
 }
 
 body {
     max-width: 100%;
-    margin: 0;
-    padding: 0;
+    padding-right: 0;
     font-family: sans-serif;
-    width: 100%;
-    background-color: whitesmoke;
-    overflow-y: scroll;
-    padding-bottom: 1000px;
-}
+    width: auto;
+    background-color: #edf2fc;
+    padding-bottom: 500px;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    overflow-x:hidden;
+   
 
+}
 
 .row::after {
     content: "";
@@ -73,6 +76,6 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: magenta;
+        
     }
 }
