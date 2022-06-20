@@ -14,8 +14,7 @@ body {
     overflow-x: hidden;
 }
 .about{   
-    overflow: hidden;
-      
+    overflow: hidden; 
 }
 .card{
     box-shadow: rgba(255, 0, 208, 0.467) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
