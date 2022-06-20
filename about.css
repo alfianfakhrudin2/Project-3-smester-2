@@ -41,7 +41,7 @@ nav ul li a{
     box-shadow: rgba(255, 0, 208, 0.467) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    width: 90%;
+    width: 88%;
     height: 100%;
     
 }
@@ -55,7 +55,6 @@ nav ul li a{
     font-family: 'GFS Didot', serif;
     font-size: 20px;
     color: #000000;
-    text-align: justify;
 }
 .cardvision
 {
