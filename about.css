@@ -84,7 +84,7 @@ nav ul li a{
 }
 .cardvision li
 {
-    font-size: 20px
+    font-size: 20px ;
     font-family: 'GFS Didot', serif;
 }
 .cardmission
@@ -101,6 +101,6 @@ nav ul li a{
 }
 .cardmission li
 {
-    font-size: 20px
+    font-size: 20px ;
     font-family: 'GFS Didot', serif;
 }
