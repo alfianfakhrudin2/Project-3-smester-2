@@ -3,6 +3,15 @@
     float: left;
     padding: 15px;
 }
+.col-6 {
+    width: 50%;
+}
+.col-12 {
+    width: 100%;
+}
+body {
+    background-color: #edf2fc;
+}
 /* Navbar */
 nav{
     position: relative;
@@ -38,21 +47,20 @@ nav ul li a{
     color: #000000;
 }
 .about{   
-    overflow: hidden;  
+    overflow: hidden;
+      
 }
 .card{
-    box-shadow: rgba(29, 4, 255, 0.3) 0px 0px 0px 3px;
+    box-shadow: rgba(255, 0, 208, 0.467) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     background-color: rgb(255, 255, 255);
-    padding: 18px;
     border-radius: 20px;
-}
-.content{
-    background-color: #ffffff;
-    padding: 50px;
+    width: 90%;
+    height: fit-content;
+    
 }
 .content h1{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-style: 'DM Serif Text';
 }
 .text
@@ -60,10 +68,11 @@ nav ul li a{
     font-family: 'GFS Didot', serif;
     font-size: 20px;
     color: #000000;
+    text-align: justify;
 }
 .cardvision
 {
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(255, 0, 208, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
     padding: 25px; 
@@ -80,7 +89,7 @@ nav ul li a{
 }
 .cardmission
 {
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(255, 0, 208, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     background-color: rgb(255, 255, 255);
     border-radius: 25px;
     padding: 25px;
