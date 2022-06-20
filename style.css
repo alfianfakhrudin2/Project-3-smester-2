@@ -19,6 +19,8 @@
     --about: white;
     --abouttext: black;
     --abouth1: black;
+    --footer:white;
+    --footertext:black;
 }
 .modegelap{
     --primary: #282a36;
@@ -35,6 +37,8 @@
     --about: rgba(68, 71, 90, 1);
     --abouttext: rgb(255, 255, 255);
     --abouth1: #bd93f9;
+    --footer: #44475a;
+    --footertext: white;
 
 
 }
@@ -346,13 +350,13 @@ nav img{
 /*** FOOTER ***/
 .footer{
     width: 100%;
-    background-color:#2d3436;
+    background-color:var(--footer);
     height: 3rem;
     text-align: center;
     margin-right: 0px;
     padding-top: 17px;
     position: relative;
-    color: whitesmoke;
+    color: var(--footertext);
     object-fit: cover;
     max-width: 2000%;
     bottom: 0;
