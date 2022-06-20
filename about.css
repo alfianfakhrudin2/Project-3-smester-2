@@ -11,6 +11,7 @@
 }
 body {
     background-color: #edf2fc;
+    overflow-x: hidden;
 }
 /* Navbar */
 nav{
