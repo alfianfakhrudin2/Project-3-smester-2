@@ -2,6 +2,32 @@
 [class*="col-"] {
     float: left;
 }
+:root {
+    --warna1: #4a5568;
+    --warna2: #2f3542;
+    --primary: #edf2fc;
+    --second: #212121;
+    --third: whitesmoke;
+    --four: #f1f2f6;
+    --navbar: #ffff;
+    --fonts: #212121;
+    --jdul: #212121;
+    --topbtn:  #bd93f9;
+    --csr: #2f3542;
+}
+
+.modegelap{
+    --primary: #282a36;
+    --second: #fff;
+    --third: white;
+    --navbar: #44475a;
+    --fonts: whitesmoke;
+    --jdul: #bd93f9;
+    --warna1: whitesmoke;
+    --four: #f8f8f2;
+    --topbtn: whitesmoke;
+    --csr: whitesmoke;
+}
 
 body {
     max-width: 100%;
@@ -14,8 +40,7 @@ body {
     height: 100%;
     position: relative;
     margin: 0;
-    overflow-x:hidden;
-   
+    overflow-x:hidden;  
 
 }
 
@@ -74,44 +99,8 @@ body {
     width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-body{
-        padding-bottom: 1200px;
-    }
-    .col-1 {
-        width: 8.33%;
-    }
-    .col-2 {
-        width: 16.66%;
-    }
-    .col-3 {
-        width: 25%;
-    }
-    .col-4 {
-        width: 33.33%;
-    }
-    .col-5 {
-        width: 41.66%;
-    }
-    .col-6 {
-        width: 50%;
-    }
-    .col-7 {
-        width: 58.33%;
-    }
-    .col-8 {
-        width: 66.66%;
-    }
-    .col-9 {
-        width: 75%;
-    }
-    .col-10 {
-        width: 83.33%;
-    }
-    .col-11 {
-        width: 91.66%;
-    }
-    .col-12 {
-        width: 100%;
+@media only screen and (max-width: 600px) {
+    body {
+        
     }
 }
