@@ -1,6 +1,7 @@
-
-[class*="col-"] {
-    float: left;
+* {
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 :root {
     --warna1: #4a5568;
@@ -29,21 +30,14 @@
     --csr: whitesmoke;
 }
 
-body {
-    max-width: 100%;
-    padding-right: 0;
+
+.body{
     font-family: sans-serif;
-    width: auto;
+    max-width: 1000%;
+    width: 100%;
     background-color: #edf2fc;
-    padding-bottom: 500px;
-    box-sizing: border-box;
-    height: 100%;
-    position: relative;
-    margin: 0;
-    overflow-x:hidden;  
-
+    
 }
-
 .row::after {
     content: "";
     clear: both;

@@ -108,20 +108,14 @@ nav{
   align-items: center;
   display: cover;
   box-shadow: 0 2.5px 4px rgba(1, 1, 1, 0.1);
-  
 }
 .logo{
-  padding-top: 22px;
-  padding-bottom: -5rem;
+  padding-top: 12px;
   letter-spacing: 3px;
   font-size: 20px;
   margin-left: 3rem;
   font-family: 'DM Serif Text', serif;
-  display: inline-block;
-  width: 7.5rem; 
-  
-  }
-
+}
 nav ul{
   display: flex;
   text-align: right;
@@ -139,14 +133,18 @@ nav ul li a{
   color: var(--fonts);
   margin-left: 2rem;
 }
-nav ul li a:hover{
-  background-color: lightskyblue;
-}
 .nav-title{
-  padding-right: 100px;
-  margin-left: 100px;
-  background-color: 5px solid brown;
-  width: 20px;
+  display: inline-block;
+  padding-top: 260px;
+  vertical-align:top;
+}
+
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
+nav img{
+  width: 5rem;
 }
 
 
@@ -341,4 +339,3 @@ nav ul li a:hover{
   max-width: 100%;
   bottom: 0;
 }
-
